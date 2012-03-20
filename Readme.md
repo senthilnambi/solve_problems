@@ -25,3 +25,9 @@ A markdown formatted Readme, viewed with [DocumentUp](http://documentup.com/#hos
 ### Alternatives
  * Jekyll + Twitter Bootstrap - Didn't want to spend time learning those tech.
  * Posterous/Tumblr - Not organized categorically by default.
+
+## Unsolved
+
+1. An outlet to showcase my work related entires: codes, sites, thoughts etc.
+  * Github + About section in this document should do the trick
+  * Point senthilnambi.com to here
