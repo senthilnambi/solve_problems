@@ -4,7 +4,17 @@ Following are a list of problems that I've encountered, my thoughts about them a
 
 This is inspired by Buckminster Fuller's "experiment, to find what a single individual [could] contribute to changing the world and benefiting all humanity." [Source](https://en.wikipedia.org/wiki/Buckminster_Fuller#Bankruptcy_and_depression)
 
-## Meta
+## OpenAuth2 (solved)
+
+### Problem
+
+Current state of OAuth2 support in Ruby. Experienced the problem when working with Google Calendar V3 api. It was hell due to lack of docs of current implementations and relevant examples in Ruby.
+
+### Solution
+
+[OpenAuth2](http://senthilnambi.github.com/OpenAuth2). Inbuilt support for Google & Facebook apis. Fully documented and tested. Has GET/POST examples.
+
+## Meta (solved for now)
 
 ### Problem
 
