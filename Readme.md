@@ -81,3 +81,15 @@ A markdown formatted Readme, viewed with [DocumentUp](http://documentup.com/#hos
 1. An outlet to showcase my work related entires: codes, sites, thoughts etc.
   * Github + About section in this document should do the trick
   * Point senthilnambi.com to here
+
+1. Fast Rails BDD
+  * Prefer pure ruby objects to ORM objects
+    * Extract out domain logic into standalone class/modules and unit test them like any Ruby class/module
+  * Load time of Rails and its libraries takes a good chunk of time
+    * ~2 secs
+  * Installing gems in vendor/ makes it a bit faster
+  * ~1.1 secs if you load only action_controller and test using rack/test
+    * Good for API only apps
+  * Subclass controllers from ActionController::Metal and include only required middlewares
+  * Since controller actions are simply rack endpoints, we can functional test with rack/test, which is much faster
+  * No more monolithic app, cut into multiple Rack apps
