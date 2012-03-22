@@ -39,6 +39,8 @@ Following Jose Valim's https://gist.github.com/1942658, this app gives preferenc
 
 [Source](https://gist.github.com/2146566)
 
+See https://github.com/senthilnambi/new-rails-project-structure for example app that follows this structure.
+
 ### Thoughts
 
 * Is this viable in the long run?
