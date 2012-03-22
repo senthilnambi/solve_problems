@@ -14,6 +14,7 @@ Looking at the folder of a Rails app you can tell that it is a Rails app, but no
 
 Following Jose Valim's https://gist.github.com/1942658, this app gives preference to the function (authentication/, repo_statistics/), while config details are hidden under rails/. This structure was meant to say 'I am a web app that does x and y and only incidentally uses Rails'.
 
+````
 |── Gemfile
 ├── Gemfile.lock
 ├── Readme
@@ -34,6 +35,7 @@ Following Jose Valim's https://gist.github.com/1942658, this app gives preferenc
 │   └── acceptance
 │   └── authentication_spec.rb
 └── vendor
+````
 
 [Source](https://gist.github.com/2146566)
 
