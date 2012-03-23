@@ -4,15 +4,16 @@ Following are a list of problems that I've encountered, my thoughts about them a
 
 This is inspired by Buckminster Fuller's "experiment, to find what a single individual [could] contribute to changing the world and benefiting all humanity." [Source](https://en.wikipedia.org/wiki/Buckminster_Fuller#Bankruptcy_and_depression)
 
-## Rails folder structure (in progress)
+## Rails folder structure
+Status: in progress
 
 ### Problem
 
-Looking at the folder of a Rails app you can tell that it is a Rails app, but not its function. The most important part of the app is hidden under models/ and controllers/. See Robert Martin's Architecture the Lost Years keynote for details.
+Looking at the folder of a Rails app you can tell that it is a Rails app, but not its function. The most important part of the app is hidden under `models/` and `controllers/`. See Robert Martin's Architecture the Lost Years keynote for details.
 
 ### Solution
 
-Following Jose Valim's https://gist.github.com/1942658, this app gives preference to the function (authentication/, repo_statistics/), while config details are hidden under rails/. This structure was meant to say 'I am a web app that does x and y and only incidentally uses Rails'.
+Following Jose Valim's https://gist.github.com/1942658, this app gives preference to the function (`authentication/` , `repo_statistics/`), while config details are hidden under `rails/`. This structure was meant to say 'I am a web app that does x and y and only incidentally uses Rails'.
 
 ````
 |── Gemfile
@@ -46,7 +47,8 @@ See https://github.com/senthilnambi/solve_problems/tree/master/rails_folder_stru
 * Is this viable in the long run?
 * Can you tell what the app does?
 
-## OpenAuth2 (solved)
+## OpenAuth2
+Status: solved
 
 ### Problem
 
@@ -56,7 +58,8 @@ Current state of OAuth2 support in Ruby. Experienced the problem when working wi
 
 [OpenAuth2](http://senthilnambi.github.com/OpenAuth2). Inbuilt support for Google & Facebook apis. Fully documented and tested. Has GET/POST examples.
 
-## Meta (solved for now)
+## Meta
+Status: solved for now
 
 ### Problem
 
