@@ -44,8 +44,8 @@ See https://github.com/senthilnambi/solve_problems/tree/master/rails_folder_stru
 
 ### Thoughts
 
-* Is this viable in the long run?
-* Can you tell what the app does?
+1. Is this viable in the long run?
+1. Can you tell what the app does?
 
 ## OpenAuth2
 Status: solved
@@ -73,28 +73,28 @@ A markdown formatted Readme, viewed with [DocumentUp](http://documentup.com/#hos
 
 ### Thoughts
 
-* [Timeless](http://timelessrepo.com/timeless) is another approach to solving the same problem.
-* This approach will be problematic as the problems grow in size and complexity.
-* Also when solution is not easily dedutable and takes trial and error process.
+1. [Timeless](http://timelessrepo.com/timeless) is another approach to solving the same problem.
+1. This approach will be problematic as the problems grow in size and complexity.
+1. Also when solution is not easily dedutable and takes trial and error process.
 
 ### Alternatives
- * Jekyll + Twitter Bootstrap - Didn't want to spend time learning those tech.
- * Posterous/Tumblr - Not organized categorically by default.
+ 1. Jekyll + Twitter Bootstrap - Didn't want to spend time learning those tech.
+ 1. Posterous/Tumblr - Not organized categorically by default.
 
 ## Unsolved
 
 1. An outlet to showcase my work related entires: codes, sites, thoughts etc.
-  * Github + About section in this document should do the trick
-  * Point senthilnambi.com to here
+  1. Github + About section in this document should do the trick
+  1. Point senthilnambi.com to here
 
 1. Fast Rails BDD
-  * Prefer pure ruby objects to ORM objects
-    * Extract out domain logic into standalone class/modules and unit test them like any Ruby class/module
-  * Load time of Rails and its libraries takes a good chunk of time
-    * ~2 secs
-  * Installing gems in vendor/ makes it a bit faster
-  * ~1.1 secs if you load only action_controller and test using rack/test
-    * Good for API only apps
-  * Subclass controllers from ActionController::Metal and include only required middlewares
-  * Since controller actions are simply rack endpoints, we can functional test with rack/test, which is much faster
-  * No more monolithic app, cut into multiple Rack apps
+  1. Prefer pure ruby objects to ORM objects
+    1. Extract out domain logic into standalone class/modules and unit test them like any Ruby class/module
+  1. Load time of Rails and its libraries takes a good chunk of time
+    1. ~2 secs
+  1. Installing gems in vendor/ makes it a bit faster
+  1. ~1.1 secs if you load only action_controller and test using rack/test
+    1. Good for API only apps
+  1. Subclass controllers from ActionController::Metal and include only required middlewares
+  1. Since controller actions are simply rack endpoints, we can functional test with rack/test, which is much faster
+  1. No more monolithic app, cut into multiple Rack apps
