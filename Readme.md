@@ -39,7 +39,7 @@ Following Jose Valim's https://gist.github.com/1942658, this app gives preferenc
 
 [Source](https://gist.github.com/2146566)
 
-See https://github.com/senthilnambi/new-rails-project-structure for example app that follows this structure.
+See https://github.com/senthilnambi/solve_problems/rails_folder_struct for example Rails app with above structure.
 
 ### Thoughts
 
