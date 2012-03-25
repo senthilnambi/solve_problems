@@ -18,6 +18,7 @@ Take apart Rails and note any interesting code/patterns.
 ### Thoughts
 
 1. Starting with Rails initialization process.
+  1. http://guides.rubyonrails.org/initialization.html is incredibly useful.
 
 ## Rails folder structure
 Status: in progress
