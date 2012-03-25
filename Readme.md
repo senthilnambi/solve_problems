@@ -33,14 +33,11 @@ Status: in progress
 
 Trouble understanding Rails.
 
-### Solution
-
-Take apart Rails and note any interesting code/patterns.
-
 ### Thoughts
 
-1. Starting with Rails initialization process.
-  1. http://guides.rubyonrails.org/initialization.html is incredibly useful.
+1. Take apart Rails and note any interesting code/patterns.
+  1. Starting with Rails initialization process.
+    1. http://guides.rubyonrails.org/initialization.html is incredibly useful.
 
 ## Rails folder structure
 Status: in progress
@@ -49,7 +46,7 @@ Status: in progress
 
 Looking at the folder of a Rails app you can tell that it is a Rails app, but not its function. The most important part of the app is hidden under `models/` and `controllers/`. See Robert Martin's Architecture the Lost Years keynote for details.
 
-### Solution
+### Thoughts
 
 Following Jose Valim's https://gist.github.com/1942658, this app gives preference to the function (`authentication/` , `repo_statistics/`), while config details are hidden under `rails/`. This structure was meant to say 'I am a web app that does x and y and only incidentally uses Rails'.
 
