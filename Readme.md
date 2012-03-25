@@ -4,6 +4,21 @@ Following are a list of problems that I've encountered, my thoughts about them a
 
 This is inspired by Buckminster Fuller's "experiment, to find what a single individual [could] contribute to changing the world and benefiting all humanity." [Source](https://en.wikipedia.org/wiki/Buckminster_Fuller#Bankruptcy_and_depression)
 
+## Understanding Rails
+Status: in progress
+
+### Problem
+
+Trouble understanding Rails.
+
+### Solution
+
+Take apart Rails and note any interesting code/patterns.
+
+### Thoughts
+
+1. Starting with Rails initialization process.
+
 ## Rails folder structure
 Status: in progress
 
