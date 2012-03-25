@@ -4,6 +4,13 @@ Following are a list of problems that I've encountered, my thoughts about them a
 
 This is inspired by Buckminster Fuller's "experiment, to find what a single individual [could] contribute to changing the world and benefiting all humanity." [Source](https://en.wikipedia.org/wiki/Buckminster_Fuller#Bankruptcy_and_depression)
 
+## Ruby `$LOAD_PATH`
+Status: unsolved
+
+### Problem
+
+Very confused about `require` and `require_relative` and the various way to require files and directorys.
+
 ## Understanding Rails
 Status: in progress
 
