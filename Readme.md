@@ -4,6 +4,21 @@ Following are a list of problems that I've encountered, my thoughts about them a
 
 This is inspired by Buckminster Fuller's "experiment, to find what a single individual [could] contribute to changing the world and benefiting all humanity." [Source](https://en.wikipedia.org/wiki/Buckminster_Fuller#Bankruptcy_and_depression)
 
+## Being Creative
+Status: in progress
+
+### Problem
+
+How to be more creative when solving problems?
+How to get better at solving problems?
+How to make the connections between two seemingly unrelated things?
+
+### Thoughts
+
+* Rich Hickley, the author of Clojure gave a very good talk on the subject. [Link](https://blip.tv/clojure/hammock-driven-development-4475586)
+* Creative pauses.
+* Read `How to Solve it` by George Polya.
+
 ## Ruby `$LOAD_PATH`
 Status: unsolved
 
