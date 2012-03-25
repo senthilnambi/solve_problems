@@ -90,6 +90,8 @@ A markdown formatted Readme, viewed with [DocumentUp](http://documentup.com/#hos
 1. Fast Rails BDD
   1. Prefer pure ruby objects to ORM objects
     1. Extract out domain logic into standalone class/modules and unit test them like any Ruby class/module
+    1. Compose domain logic object with db mapper object?
+      1. Easier to test with mocks
   1. Load time of Rails and its libraries takes a good chunk of time
     1. ~2 secs
   1. Installing gems in vendor/ makes it a bit faster
@@ -98,3 +100,4 @@ A markdown formatted Readme, viewed with [DocumentUp](http://documentup.com/#hos
   1. Subclass controllers from ActionController::Metal and include only required middlewares
   1. Since controller actions are simply rack endpoints, we can functional test with rack/test, which is much faster
   1. No more monolithic app, cut into multiple Rack apps
+  1. DataMapper 2.0 is supposed to implement DataMapper pattern fully. See Virtus, Veritas libraries.
