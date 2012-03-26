@@ -58,6 +58,7 @@ module Initializable
     it 'runs initializers only once'
     it 'runs other than :default groups'
     it 'runs initializers with args'
+    it 'app is passed as argument to block'
     it 'merges initializers from parent in right order'
 
     context 'when initializer has not run' do
