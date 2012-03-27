@@ -118,6 +118,12 @@ A markdown formatted Readme, viewed with [DocumentUp](http://documentup.com/#hos
 
 ## Unsolved
 
+1. What's the right way to name your Readme file? I've seen:
+  1. Readme.md
+  1. README.md
+  1. Readme.markdown
+  1. README.markdown
+1. I prefer `Readme.markdown`. Unless github won't pick up downcassed `readme`, I don't see a reason to upcase it.
 1. An outlet to showcase my work related entires: codes, sites, thoughts etc.
   1. Github + About section in this document should do the trick
   1. Point senthilnambi.com to here
