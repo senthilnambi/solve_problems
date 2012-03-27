@@ -4,6 +4,27 @@ Following are a list of problems that I've encountered, my thoughts about them a
 
 This is inspired by Buckminster Fuller's "experiment, to find what a single individual [could] contribute to changing the world and benefiting all humanity." [Source](https://en.wikipedia.org/wiki/Buckminster_Fuller#Bankruptcy_and_depression)
 
+## Readme naming
+status: solved
+
+### Problem
+
+What's the right way to name your Readme file? I've seen:
+  1. Readme.md
+  1. README.md
+  1. Readme.markdown
+  1. README.markdown
+
+I use `Readme.markdown`. Unless github won't pick up downcassed `readme`, there is no reason not to upcase it.
+
+### Solution
+
+Github does recognize `readme.markdown`, so that's what I'm going to be using from now on.
+
+### Thoughts
+
+1. File system/Git doesn't distingush between upcase/downcase file names, i.e. `file.md` and `File.md` are the same.
+
 ## Being Creative
 Status: in progress
 
@@ -118,12 +139,6 @@ A markdown formatted Readme, viewed with [DocumentUp](http://documentup.com/#hos
 
 ## Unsolved
 
-1. What's the right way to name your Readme file? I've seen:
-  1. Readme.md
-  1. README.md
-  1. Readme.markdown
-  1. README.markdown
-1. I prefer `Readme.markdown`. Unless github won't pick up downcassed `readme`, I don't see a reason to upcase it.
 1. An outlet to showcase my work related entires: codes, sites, thoughts etc.
   1. Github + About section in this document should do the trick
   1. Point senthilnambi.com to here
