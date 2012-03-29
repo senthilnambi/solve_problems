@@ -24,20 +24,25 @@ module Info
   rescue Exception
   end
 
-  property 'Ruby version', RUBY_VERSION
-
-  property 'RubyGems version' do
-    Gem::RubyGemsVersion
-  end
-
-  # BUG: does not rescue error if NonExistent is passed as argument
-  property 'NonExistent' do
-    NonExistent
-  end
 end
 
 describe Info do
-  subject { described_class }
+  subject do
+    described_class.module_eval do
+      property 'Ruby version', RUBY_VERSION
+
+      property 'RubyGems version' do
+        Gem::RubyGemsVersion
+      end
+
+      # BUG: does not rescue error if NonExistent is passed as argument
+      property 'NonExistent' do
+        NonExistent
+      end
+    end
+
+    described_class
+  end
 
   def find_property(name)
     subject.properties.find {|x| x[0] == name}
