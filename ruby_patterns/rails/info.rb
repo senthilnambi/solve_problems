@@ -23,7 +23,6 @@ module Info
     properties << [name, value] if value
   rescue Exception
   end
-
 end
 
 describe Info do

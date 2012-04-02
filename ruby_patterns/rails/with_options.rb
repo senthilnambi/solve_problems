@@ -33,10 +33,10 @@ class OptionMerger < BasicObject
 
   def method_missing(method, *arguments, &block)
     if arguments.last.is_a?(::Proc)
-      proc = arguments.pop
+      proc_obj = arguments.pop
 
       arguments << lambda do |*args|
-        @options.deep_merge(proc.call(*args))
+        @options.deep_merge(proc_obj.call(*args))
       end
     else
       arguments << if arguments.last.respond_to?(:to_hash)
